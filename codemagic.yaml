@@ -8,6 +8,9 @@
               XCODE_PROJECT: "Capstone-Submission.xcworkspace" # Isikan nama project Anda.
               XCODE_SCHEME: "Capstone-Submission" # Isikan nama scheme project Anda.
         scripts:
+          - name: Install pods
+            script: |
+              pod install
           - name: Build debug app
             script: |
               xcodebuild build -workspace "$XCODE_WORKSPACE" \
