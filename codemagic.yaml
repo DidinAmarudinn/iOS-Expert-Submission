@@ -5,7 +5,7 @@
           xcode: latest
           cocoapods: default
           vars:
-              XCODE_PROJECT: "Capstone-Submission.xcworkspace" # Isikan nama project Anda.
+              XCODE_WORKSPACE: "Capstone-Submission.xcworkspace" # Isikan nama project Anda.
               XCODE_SCHEME: "Capstone-Submission" # Isikan nama scheme project Anda.
         scripts:
           - name: Install pods
