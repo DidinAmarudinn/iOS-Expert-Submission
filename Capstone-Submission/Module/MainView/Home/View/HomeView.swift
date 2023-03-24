@@ -11,7 +11,6 @@ import Games
 import Core
 import Detail
 struct HomeView: View {
-    
     @ObservedObject var presenter: GetListPersenter<Any, GameDomainModel, Interactor<Any, [GameDomainModel], GetGamesRepository<GetGamesRemoteDataSource, GamesTransformer>>>
     var body: some View {
         ZStack {
